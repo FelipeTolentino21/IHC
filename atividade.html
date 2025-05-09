@@ -1,0 +1,101 @@
+<!--
+    LISTA DE AFAZERES
+
+    1. Usar Paddings e Margins para controlar o tamanho da imagem, professor falou para
+    olhar a documentação para "formatar" (nn lembro se é isso que ele falou) a imagem
+    2. Usar border bottom nos textos h4 para fazer a linha embaixo
+    3. Criar um container no negócio do lado da imagem (Meu nome lindo etc) para centralizar
+    ele conforme a imagem "muda" (pq ela nn vai mudar, mas é pra deixar responsivo)
+    4. Ao finalizar a formatação, substituir as informações por informações reais e
+    tirar todos os borders vermelhos que foram usados para orientação geral
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade - Curriculum</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.5-dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container border border-2 border-dark pb-3 mt-4"> <!-- Container Todo -->
+        <div class="row border-bottom border-danger"> <!-- Linha do Curriculum -->
+            <p class="text-center pt-5 pb-5 display-5 fw-bold">Curriculum</p>
+        </div>
+        <div class="row border-bottom border-danger"> <!-- Linha da imagem e descrições -->
+            <div class="col-3 border-end border-danger pt-3"> <!-- Coluna da imagem -->
+                <img src="energia.png" alt="..." class="img-fluid rounded-5 h-75 mt-2">
+            </div>
+            <div class="col-9 border-start border-danger"> <!-- Coluna das descrições -->
+                <h1 class="mt-5">Meu nome lindo</h1>
+                <p class="mt-3">Idade: </p>
+                <p class="mt-3">Telefone de contato: </p>
+                <p class="mt-3">E-mail: </p>
+                <p class="mt-3">Endereço: </p>
+            </div>
+        </div>
+        <div class="row border-bottom border-danger"> <!-- Linha do titulo Apresentação -->
+            <h4 class="fw-bold pt-3 text-truncate">Apresentação</h4>
+        </div>
+        <div class="row border-bottom border-danger"> <!-- Linha da descrição -->
+            <p>Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Unde, non. Suscipit, 
+                officiis dignissimos assumenda ratione incidunt dolor 
+                magnam, sunt repudiandae, debitis iure porro nulla tempora? 
+                Voluptatibus illo hic repellendus recusandae.</p>
+        </div>
+        <div class="row row border-bottom border-danger"> <!-- Linha do titulo Objetivo -->
+            <h4 class="fw-bold pt-3 text-truncate">Objetivo</h4>
+        </div>
+        <div class="row border-bottom border-danger"> <!-- Linha da descrição -->
+            <p>Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Unde, non. Suscipit, 
+                officiis dignissimos assumenda ratione incidunt dolor 
+                magnam, sunt repudiandae, debitis iure porro nulla tempora? 
+                Voluptatibus illo hic repellendus recusandae.</p>
+        </div>
+        <div class="row border-bottom border-danger"> <!-- Linha do titulo Experiência profissional -->
+            <h4 class="fw-bold pt-3 text-truncate">Experiência Profissional</h4>
+        </div>
+        <div class="row border-bottom border-danger"> <!-- Linha da descrição -->
+            <div class="col-6 border-end border-danger"> <!-- Coluna da primeira descrição -->
+                <p>Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. Unde, non. Suscipit, 
+                    officiis dignissimos assumenda ratione incidunt dolor 
+                    magnam, sunt repudiandae, debitis iure porro nulla tempora? 
+                    Voluptatibus illo hic repellendus recusandae.</p>
+            </div>
+            <div class="col-6 border-start border-danger"> <!-- Coluna da segunda descrição -->
+                <p>Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. Unde, non. Suscipit, 
+                    officiis dignissimos assumenda ratione incidunt dolor 
+                    magnam, sunt repudiandae, debitis iure porro nulla tempora? 
+                    Voluptatibus illo hic repellendus recusandae.</p>
+            </div>
+        </div>
+        <div class="row border-bottom border-danger"> <!-- Linha do titulo Formação -->
+            <h4 class="fw-bold pt-3 text-truncate">Formação</h4>
+        </div>
+        <div class="row border-bottom border-danger"> <!-- Linha da descrição -->
+            <p>Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Unde, non. Suscipit, 
+                officiis dignissimos assumenda ratione incidunt dolor 
+                magnam, sunt repudiandae, debitis iure porro nulla tempora? 
+                Voluptatibus illo hic repellendus recusandae.</p>
+        </div>
+        <div class="row row border-bottom border-danger"> <!-- Linha do titulo Cursos e Eventos -->
+            <h4 class="fw-bold pt-3 text-truncate">Cursos e Eventos</h4>
+        </div>
+        <div class="row ps-5"> <!-- Linha da descrição -->
+            <ul> <!-- Lista -->
+                <li>Item 1</ui>
+                <li>Item 2</ui>
+                <li>Item 3</ui>
+                <li>Item 4</ui>
+            </ul>
+        </div>
+    </div>
+    <script src="./bootstrap-5.3.5-dist/js/bootstrap.js"></script>
+</body>
+</html>

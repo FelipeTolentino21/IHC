@@ -1,15 +1,3 @@
-<!--
-    LISTA DE AFAZERES
-
-    1. Usar Paddings e Margins para controlar o tamanho da imagem, professor falou para
-    olhar a documentação para "formatar" (nn lembro se é isso que ele falou) a imagem
-    2. Usar border bottom nos textos h4 para fazer a linha embaixo
-    3. Criar um container no negócio do lado da imagem (Meu nome lindo etc) para centralizar
-    ele conforme a imagem "muda" (pq ela nn vai mudar, mas é pra deixar responsivo)
-    4. Ao finalizar a formatação, substituir as informações por informações reais e
-    tirar todos os borders vermelhos que foram usados para orientação geral
--->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -19,80 +7,77 @@
     <link rel="stylesheet" href="./bootstrap-5.3.5-dist/css/bootstrap.css">
 </head>
 <body>
-    <div class="container border border-2 border-dark pb-3 mt-4"> <!-- Container Todo -->
-        <div class="row border-bottom border-danger"> <!-- Linha do Curriculum -->
+    <div class="container border border-5 border-dark pb-3 mt-4 mb-4"> <!-- Container Todo -->
+        <div class="row"> <!-- Linha do Curriculum -->
             <p class="text-center pt-5 pb-5 display-5 fw-bold">Curriculum</p>
         </div>
-        <div class="row border-bottom border-danger"> <!-- Linha da imagem e descrições -->
-            <div class="col-3 border-end border-danger pt-3"> <!-- Coluna da imagem -->
-                <img src="energia.png" alt="..." class="img-fluid rounded-5 h-75 mt-2">
+        <div class="row"> <!-- Linha da imagem e descrições -->
+            <div class="col-3 pt-3"> <!-- Coluna da imagem -->
+                <img src="eu.png" alt="..." class="img-fluid rounded-5 h-75 mt-2 object-fit-cover w-100 mt-5">
             </div>
-            <div class="col-9 border-start border-danger"> <!-- Coluna das descrições -->
-                <h1 class="mt-5">Meu nome lindo</h1>
-                <p class="mt-3">Idade: </p>
-                <p class="mt-3">Telefone de contato: </p>
-                <p class="mt-3">E-mail: </p>
-                <p class="mt-3">Endereço: </p>
-            </div>
-        </div>
-        <div class="row border-bottom border-danger"> <!-- Linha do titulo Apresentação -->
-            <h4 class="fw-bold pt-3 text-truncate">Apresentação</h4>
-        </div>
-        <div class="row border-bottom border-danger"> <!-- Linha da descrição -->
-            <p>Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. Unde, non. Suscipit, 
-                officiis dignissimos assumenda ratione incidunt dolor 
-                magnam, sunt repudiandae, debitis iure porro nulla tempora? 
-                Voluptatibus illo hic repellendus recusandae.</p>
-        </div>
-        <div class="row row border-bottom border-danger"> <!-- Linha do titulo Objetivo -->
-            <h4 class="fw-bold pt-3 text-truncate">Objetivo</h4>
-        </div>
-        <div class="row border-bottom border-danger"> <!-- Linha da descrição -->
-            <p>Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. Unde, non. Suscipit, 
-                officiis dignissimos assumenda ratione incidunt dolor 
-                magnam, sunt repudiandae, debitis iure porro nulla tempora? 
-                Voluptatibus illo hic repellendus recusandae.</p>
-        </div>
-        <div class="row border-bottom border-danger"> <!-- Linha do titulo Experiência profissional -->
-            <h4 class="fw-bold pt-3 text-truncate">Experiência Profissional</h4>
-        </div>
-        <div class="row border-bottom border-danger"> <!-- Linha da descrição -->
-            <div class="col-6 border-end border-danger"> <!-- Coluna da primeira descrição -->
-                <p>Lorem ipsum dolor sit amet 
-                    consectetur adipisicing elit. Unde, non. Suscipit, 
-                    officiis dignissimos assumenda ratione incidunt dolor 
-                    magnam, sunt repudiandae, debitis iure porro nulla tempora? 
-                    Voluptatibus illo hic repellendus recusandae.</p>
-            </div>
-            <div class="col-6 border-start border-danger"> <!-- Coluna da segunda descrição -->
-                <p>Lorem ipsum dolor sit amet 
-                    consectetur adipisicing elit. Unde, non. Suscipit, 
-                    officiis dignissimos assumenda ratione incidunt dolor 
-                    magnam, sunt repudiandae, debitis iure porro nulla tempora? 
-                    Voluptatibus illo hic repellendus recusandae.</p>
+            <div class="col-9"> <!-- Coluna das descrições -->
+                <div class="d-flex align-items-center vh-100 ps-5">
+                    <div class="text-start">
+                        <h1 class="fw-bold">Felipe Tolentino Soares</h1>
+                        <p class="mt-3">Idade: 20 anos</p>
+                        <p class="mt-3">Telefone de contato: (61) 98267-5400</p>
+                        <p class="mt-3">E-mail: tolentinofelipe21@gmail.com</p>
+                        <p class="mt-3">Endereço: QE 28 Conjunto A Guará II</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row border-bottom border-danger"> <!-- Linha do titulo Formação -->
-            <h4 class="fw-bold pt-3 text-truncate">Formação</h4>
+        <div class="row"> <!-- Linha do titulo Apresentação -->
+            <h4 class="fw-bold pt-3 border-bottom border-dark border-3 pb-2">Apresentação</h4>
         </div>
-        <div class="row border-bottom border-danger"> <!-- Linha da descrição -->
-            <p>Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. Unde, non. Suscipit, 
-                officiis dignissimos assumenda ratione incidunt dolor 
-                magnam, sunt repudiandae, debitis iure porro nulla tempora? 
-                Voluptatibus illo hic repellendus recusandae.</p>
+        <div class="row"> <!-- Linha da descrição -->
+            <p>Sou um estudante de Ciência da Computação apaixonado por tecnologia e inovação. 
+                Tenho facilidade em aprender novas linguagens e ferramentas, 
+                além de gostar de trabalhar em equipe para resolver problemas reais com soluções criativas. 
+                Busco constantemente aprimorar meus conhecimentos através de projetos pessoais, cursos e eventos da área.</p>
         </div>
-        <div class="row row border-bottom border-danger"> <!-- Linha do titulo Cursos e Eventos -->
-            <h4 class="fw-bold pt-3 text-truncate">Cursos e Eventos</h4>
+        <div class="row"> <!-- Linha do titulo Objetivo -->
+            <h4 class="fw-bold pt-3 border-bottom border-dark border-3 pb-2">Objetivo</h4>
+        </div>
+        <div class="row"> <!-- Linha da descrição -->
+            <p>Atuar como desenvolvedor júnior em uma empresa de tecnologia, 
+                contribuindo com minhas habilidades em programação e 
+                aprendendo com profissionais experientes para evoluir tecnicamente e profissionalmente.</p>
+        </div>
+        <div class="row"> <!-- Linha do titulo Experiência profissional -->
+            <h4 class="fw-bold pt-3 border-bottom border-dark border-3 pb-2">Experiência Profissional</h4>
+        </div>
+        <div class="row"> <!-- Linha da descrição -->
+            <div class="col-6 border-end border-dark"> <!-- Coluna da primeira descrição -->
+                <p>Ainda não possuo experiência profissional formal, 
+                    mas estou em busca da minha primeira oportunidade para ingressar no mercado de trabalho. 
+                    Tenho disposição para aprender, facilidade em trabalhar em equipe e grande interesse em 
+                    aplicar meus conhecimentos da área de Ciência da Computação.</p>
+            </div>
+            <div class="col-6 border-start border-dark"> <!-- Coluna da segunda descrição -->
+                <p>Mesmo sem experiência anterior, me considero uma pessoa dedicada, 
+                    organizada e com boa capacidade de adaptação. Estou motivado a desenvolver minhas habilidades profissionais e 
+                    contribuir positivamente com os projetos da empresa que me der uma oportunidade.</p>
+            </div>
+        </div>
+        <div class="row"> <!-- Linha do titulo Formação -->
+            <h4 class="fw-bold pt-3 border-bottom border-dark border-3 pb-2">Formação</h4>
+        </div>
+        <div class="row"> <!-- Linha da descrição -->
+            <p>Bacharelado em Ciência da Computação – CEUB <br>
+                Ano em que a faculdade foi iniciada 2022 <br>
+                Previsão de Conclusão: Dezembro de 2026.</p>
+        </div>
+        <div class="row"> <!-- Linha do titulo Cursos e Eventos -->
+            <h4 class="fw-bold pt-3 border-bottom border-dark border-3 pb-2">Cursos e Eventos</h4>
         </div>
         <div class="row ps-5"> <!-- Linha da descrição -->
             <ul> <!-- Lista -->
-                <li>Item 1</ui>
-                <li>Item 2</ui>
-                <li>Item 3</ui>
-                <li>Item 4</ui>
+                <li>Curso Java Básico</li>
+                <li>Curso C Básico</li>
+                <li>Curso HTML e CSS básico</li>
+                <li>Curso Python Básico</li>
+                <li>Curso Golang Básico</li>
             </ul>
         </div>
     </div>
